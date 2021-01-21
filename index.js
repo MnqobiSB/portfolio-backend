@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
-app.get('/', () => {
-	resizeBy.send('Welcome to my Portfolio');
+app.get('/', (req, res) => {
+	res.send('Welcome to my Portfolio');
 });
 
 app.post('/api/forma', (req, res) => {
