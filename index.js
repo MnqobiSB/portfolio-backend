@@ -30,7 +30,7 @@ app.post('/api/forma', (req, res) => {
 
 	let mailOptions = {
 		from: data.email,
-		to: 'amandlamm1@gmail.com',
+		to: 'admin@suburbandigihustle.com',
 		subject: `Message from ${data.name} from Mnqobi's portfolio`,
 		html: `
       <h1>Sender Information</h1>
