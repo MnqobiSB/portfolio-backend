@@ -21,7 +21,7 @@ app.post('/api/forma', (req, res) => {
 		secure: true,
 		auth: {
 			user: 'admin@suburbandigihustle.com',
-			pass: process.env.EMAILPASS
+			pass: '$A7R7cj-kC)ZCqt'
 		},
 		tls: {
 			rejectUnauthorized: false
